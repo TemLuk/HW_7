@@ -1,5 +1,6 @@
-word = input('Введите слово: ')
-if word == word[::-1]:
-    print(True)
-elif word != word[::-1]:
-    print(False)
+def word(x):
+    return x == x[::-1]
+
+
+x = input('Введите слово: ')
+print(word(x))
